@@ -4,7 +4,7 @@ public class Kadane_algo {
 
 
 
-    public static int kadane(int arr[], int n)
+    public static int kadane(int arr[])
     {
         int curSum=0;
         int maxSum=Integer.MIN_VALUE;
@@ -24,6 +24,6 @@ public class Kadane_algo {
 
         int arr[]={5,4,-1,7,8};
 
-        System.out.println(kadane(arr,8));
+        System.out.println(kadane(arr));
     }
 }
